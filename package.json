@@ -4,11 +4,15 @@
   "description": "Compilado de utils",
   "main": "src/index.js",
   "scripts": {
-    "test": "test"
+    "test": "test",
+    "build": "tsc"
   },
   "keywords": [
     "utils"
   ],
   "author": "Carlos Henrique Ziegler de Araújo",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.5.3"
+  }
 }
